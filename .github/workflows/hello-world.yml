@@ -1,8 +1,5 @@
 name: hello-world
-on:
-  pull_request:
-    branches:
-     - 'main'
+on: push
 jobs:
   print-hello:
     runs-on: ubuntu-latest
